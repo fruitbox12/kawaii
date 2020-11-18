@@ -4,7 +4,7 @@ COPY package*.json ./
 
 RUN npm install
 COPY . .
-EXPOSE 90
+EXPOSE 80
 CMD [ "node", "backend.js" ]
 
 
